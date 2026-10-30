@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "RPT-0034",
+    "tracking_id": "CIV-TRACK-0034",
+    "description": "The drain nearby is blocked and rainwater cannot flow.",
+    "image_url": null,
+    "category": "Waterlogging",
+    "location": {
+      "latitude": 12.970271,
+      "longitude": 77.594623,
+      "address": "Synthetic location, Area Alpha"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-01",
+    "status": "Under Review",
+    "assigned_department": null,
+    "created_at": "2026-10-27T16:22:35",
+    "updated_at": "2026-10-25T04:01:35",
+    "ground_truth": {
+      "expected_category": "Waterlogging",
+      "expected_priority_score": 86,
+      "duplicate_of": "RPT-0002",
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0004",
+    "tracking_id": "CIV-TRACK-0004",
+    "description": "An exposed electrical wire is hanging near a public footpath.",
+    "image_url": null,
+    "category": "Public Safety",
+    "location": {
+      "latitude": 12.972517,
+      "longitude": 77.595194,
+      "address": "Synthetic location, Area Alpha"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-01",
+    "status": "Assigned",
+    "assigned_department": "Public Safety Department",
+    "created_at": "2026-10-22T07:13:35",
+    "updated_at": "2026-10-28T08:21:35",
+    "ground_truth": {
+      "expected_category": "Public Safety",
+      "expected_priority_score": 98,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0015",
+    "tracking_id": "CIV-TRACK-0015",
+    "description": "The roadside drainage channel is blocked.",
+    "image_url": null,
+    "category": "Drainage",
+    "location": {
+      "latitude": 12.936613,
+      "longitude": 77.625582,
+      "address": "Synthetic location, Area Beta"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-02",
+    "status": "Submitted",
+    "assigned_department": null,
+    "created_at": "2026-10-26T13:30:35",
+    "updated_at": "2026-10-26T02:37:35",
+    "ground_truth": {
+      "expected_category": "Drainage",
+      "expected_priority_score": 85,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0035",
+    "tracking_id": "CIV-TRACK-0035",
+    "description": "The electrical wire is exposed and hanging near the footpath.",
+    "image_url": null,
+    "category": "Public Safety",
+    "location": {
+      "latitude": 12.97046,
+      "longitude": 77.595771,
+      "address": "Synthetic location, Area Alpha"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-01",
+    "status": "Under Review",
+    "assigned_department": null,
+    "created_at": "2026-10-11T16:24:35",
+    "updated_at": "2026-10-26T09:00:35",
+    "ground_truth": {
+      "expected_category": "Public Safety",
+      "expected_priority_score": 98,
+      "duplicate_of": "RPT-0004",
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0006",
+    "tracking_id": "CIV-TRACK-0006",
+    "description": "Garbage bins are overflowing near the market.",
+    "image_url": null,
+    "category": "Waste Management",
+    "location": {
+      "latitude": 12.971709,
+      "longitude": 77.596019,
+      "address": "Synthetic location, Area Alpha"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-01",
+    "status": "Resolved",
+    "assigned_department": "Sanitation Department",
+    "created_at": "2026-10-27T18:08:35",
+    "updated_at": "2026-10-24T15:30:35",
+    "ground_truth": {
+      "expected_category": "Waste Management",
+      "expected_priority_score": 57,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0025",
+    "tracking_id": "CIV-TRACK-0025",
+    "description": "The stormwater drain is clogged with debris.",
+    "image_url": null,
+    "category": "Drainage",
+    "location": {
+      "latitude": 12.997956,
+      "longitude": 77.550118,
+      "address": "Synthetic location, Area Gamma"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-03",
+    "status": "Resolved",
+    "assigned_department": "Drainage Department",
+    "created_at": "2026-10-22T19:35:35",
+    "updated_at": "2026-10-27T05:20:35",
+    "ground_truth": {
+      "expected_category": "Drainage",
+      "expected_priority_score": 83,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0012",
+    "tracking_id": "CIV-TRACK-0012",
+    "description": "A public park bench has been damaged.",
+    "image_url": null,
+    "category": "Other",
+    "location": {
+      "latitude": 12.970529,
+      "longitude": 77.593519,
+      "address": "Synthetic location, Area Alpha"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-01",
+    "status": "Assigned",
+    "assigned_department": "General Civic Services",
+    "created_at": "2026-10-11T21:29:35",
+    "updated_at": "2026-10-25T23:03:35",
+    "ground_truth": {
+      "expected_category": "Other",
+      "expected_priority_score": 22,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0029",
+    "tracking_id": "CIV-TRACK-0029",
+    "description": "Water leakage is occurring near the roadside pipe.",
+    "image_url": null,
+    "category": "Water Supply",
+    "location": {
+      "latitude": 12.998924,
+      "longitude": 77.551068,
+      "address": "Synthetic location, Area Gamma"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-03",
+    "status": "Submitted",
+    "assigned_department": null,
+    "created_at": "2026-10-28T14:52:35",
+    "updated_at": "2026-10-30T08:27:35",
+    "ground_truth": {
+      "expected_category": "Water Supply",
+      "expected_priority_score": 73,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0033",
+    "tracking_id": "CIV-TRACK-0033",
+    "description": "Water is collecting on the same road after rainfall.",
+    "image_url": null,
+    "category": "Road Damage",
+    "location": {
+      "latitude": 12.971727,
+      "longitude": 77.595344,
+      "address": "Synthetic location, Area Alpha"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-01",
+    "status": "Submitted",
+    "assigned_department": null,
+    "created_at": "2026-10-28T16:56:35",
+    "updated_at": "2026-10-25T19:16:35",
+    "ground_truth": {
+      "expected_category": "Road Damage",
+      "expected_priority_score": 68,
+      "duplicate_of": "RPT-0001",
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0038",
+    "tracking_id": "CIV-TRACK-0038",
+    "description": "Drainage blockage is causing water flow problems.",
+    "image_url": null,
+    "category": "Waterlogging",
+    "location": {
+      "latitude": 12.935563,
+      "longitude": 77.624689,
+      "address": "Synthetic location, Area Beta"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-02",
+    "status": "Submitted",
+    "assigned_department": null,
+    "created_at": "2026-10-27T18:13:35",
+    "updated_at": "2026-10-26T03:18:35",
+    "ground_truth": {
+      "expected_category": "Waterlogging",
+      "expected_priority_score": 89,
+      "duplicate_of": "RPT-0014",
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0020",
+    "tracking_id": "CIV-TRACK-0020",
+    "description": "Broken road surface is creating a hazard for cyclists.",
+    "image_url": null,
+    "category": "Road Damage",
+    "location": {
+      "latitude": 12.933957,
+      "longitude": 77.624458,
+      "address": "Synthetic location, Area Beta"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-02",
+    "status": "Submitted",
+    "assigned_department": null,
+    "created_at": "2026-10-13T07:18:35",
+    "updated_at": "2026-10-24T19:51:35",
+    "ground_truth": {
+      "expected_category": "Road Damage",
+      "expected_priority_score": 80,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0005",
+    "tracking_id": "CIV-TRACK-0005",
+    "description": "Streetlight is not working near the junction.",
+    "image_url": null,
+    "category": "Streetlight",
+    "location": {
+      "latitude": 12.97124,
+      "longitude": 77.594177,
+      "address": "Synthetic location, Area Alpha"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-01",
+    "status": "Assigned",
+    "assigned_department": "Electrical Department",
+    "created_at": "2026-10-11T02:35:35",
+    "updated_at": "2026-10-29T11:57:35",
+    "ground_truth": {
+      "expected_category": "Streetlight",
+      "expected_priority_score": 48,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0024",
+    "tracking_id": "CIV-TRACK-0024",
+    "description": "Water has collected near the school entrance.",
+    "image_url": null,
+    "category": "Waterlogging",
+    "location": {
+      "latitude": 12.996677,
+      "longitude": 77.548702,
+      "address": "Synthetic location, Area Gamma"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-03",
+    "status": "Submitted",
+    "assigned_department": null,
+    "created_at": "2026-10-20T08:54:35",
+    "updated_at": "2026-10-29T02:44:35",
+    "ground_truth": {
+      "expected_category": "Waterlogging",
+      "expected_priority_score": 88,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0027",
+    "tracking_id": "CIV-TRACK-0027",
+    "description": "Streetlight near the public crossing has failed.",
+    "image_url": null,
+    "category": "Streetlight",
+    "location": {
+      "latitude": 12.99846,
+      "longitude": 77.550439,
+      "address": "Synthetic location, Area Gamma"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-03",
+    "status": "Submitted",
+    "assigned_department": null,
+    "created_at": "2026-10-17T12:05:35",
+    "updated_at": "2026-10-30T04:14:35",
+    "ground_truth": {
+      "expected_category": "Streetlight",
+      "expected_priority_score": 67,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0013",
+    "tracking_id": "CIV-TRACK-0013",
+    "description": "A deep pothole has appeared near the intersection.",
+    "image_url": null,
+    "category": "Road Damage",
+    "location": {
+      "latitude": 12.934358,
+      "longitude": 77.625993,
+      "address": "Synthetic location, Area Beta"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-02",
+    "status": "Resolved",
+    "assigned_department": "Road Maintenance",
+    "created_at": "2026-10-28T09:31:35",
+    "updated_at": "2026-10-30T06:46:35",
+    "ground_truth": {
+      "expected_category": "Road Damage",
+      "expected_priority_score": 78,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0030",
+    "tracking_id": "CIV-TRACK-0030",
+    "description": "A damaged public signboard needs replacement.",
+    "image_url": null,
+    "category": "Other",
+    "location": {
+      "latitude": 12.998761,
+      "longitude": 77.549209,
+      "address": "Synthetic location, Area Gamma"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-03",
+    "status": "Resolved",
+    "assigned_department": "General Civic Services",
+    "created_at": "2026-10-14T20:13:35",
+    "updated_at": "2026-10-27T10:16:35",
+    "ground_truth": {
+      "expected_category": "Other",
+      "expected_priority_score": 20,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0001",
+    "tracking_id": "CIV-TRACK-0001",
+    "description": "A large pothole is damaging vehicles near the main road.",
+    "image_url": null,
+    "category": "Road Damage",
+    "location": {
+      "latitude": 12.972018,
+      "longitude": 77.593175,
+      "address": "Synthetic location, Area Alpha"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-01",
+    "status": "Assigned",
+    "assigned_department": "Road Maintenance",
+    "created_at": "2026-10-23T04:18:35",
+    "updated_at": "2026-10-25T07:43:35",
+    "ground_truth": {
+      "expected_category": "Road Damage",
+      "expected_priority_score": 68,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0028",
+    "tracking_id": "CIV-TRACK-0028",
+    "description": "Overflowing waste container is attracting stray animals.",
+    "image_url": null,
+    "category": "Waste Management",
+    "location": {
+      "latitude": 12.997071,
+      "longitude": 77.549846,
+      "address": "Synthetic location, Area Gamma"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-03",
+    "status": "Resolved",
+    "assigned_department": "Sanitation Department",
+    "created_at": "2026-10-25T02:57:35",
+    "updated_at": "2026-10-29T08:58:35",
+    "ground_truth": {
+      "expected_category": "Waste Management",
+      "expected_priority_score": 64,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0031",
+    "tracking_id": "CIV-TRACK-0031",
+    "description": "Loose road material is creating a hazard for motorists.",
+    "image_url": null,
+    "category": "Road Damage",
+    "location": {
+      "latitude": 12.997637,
+      "longitude": 77.551456,
+      "address": "Synthetic location, Area Gamma"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-03",
+    "status": "Assigned",
+    "assigned_department": "Road Maintenance",
+    "created_at": "2026-10-16T01:59:35",
+    "updated_at": "2026-10-24T11:36:35",
+    "ground_truth": {
+      "expected_category": "Road Damage",
+      "expected_priority_score": 62,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0032",
+    "tracking_id": "CIV-TRACK-0032",
+    "description": "Uncollected waste is accumulating near the park.",
+    "image_url": null,
+    "category": "Waste Management",
+    "location": {
+      "latitude": 12.998167,
+      "longitude": 77.550655,
+      "address": "Synthetic location, Area Gamma"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-03",
+    "status": "Under Review",
+    "assigned_department": null,
+    "created_at": "2026-10-24T02:13:35",
+    "updated_at": "2026-10-29T16:39:35",
+    "ground_truth": {
+      "expected_category": "Waste Management",
+      "expected_priority_score": 56,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0003",
+    "tracking_id": "CIV-TRACK-0003",
+    "description": "A blocked drain is preventing rainwater from flowing.",
+    "image_url": null,
+    "category": "Drainage",
+    "location": {
+      "latitude": 12.971906,
+      "longitude": 77.594784,
+      "address": "Synthetic location, Area Alpha"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-01",
+    "status": "Resolved",
+    "assigned_department": "Drainage Department",
+    "created_at": "2026-10-22T20:49:35",
+    "updated_at": "2026-10-28T10:38:35",
+    "ground_truth": {
+      "expected_category": "Drainage",
+      "expected_priority_score": 82,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0002",
+    "tracking_id": "CIV-TRACK-0002",
+    "description": "Heavy rain has caused water to accumulate on the road.",
+    "image_url": null,
+    "category": "Waterlogging",
+    "location": {
+      "latitude": 12.972322,
+      "longitude": 77.594736,
+      "address": "Synthetic location, Area Alpha"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-01",
+    "status": "Resolved",
+    "assigned_department": "Drainage Department",
+    "created_at": "2026-10-29T11:21:35",
+    "updated_at": "2026-10-29T03:54:35",
+    "ground_truth": {
+      "expected_category": "Waterlogging",
+      "expected_priority_score": 86,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0026",
+    "tracking_id": "CIV-TRACK-0026",
+    "description": "An uncovered manhole is creating a serious safety risk.",
+    "image_url": null,
+    "category": "Public Safety",
+    "location": {
+      "latitude": 12.996791,
+      "longitude": 77.549793,
+      "address": "Synthetic location, Area Gamma"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-03",
+    "status": "Resolved",
+    "assigned_department": "Public Safety Department",
+    "created_at": "2026-10-16T20:31:35",
+    "updated_at": "2026-10-25T09:43:35",
+    "ground_truth": {
+      "expected_category": "Public Safety",
+      "expected_priority_score": 99,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0016",
+    "tracking_id": "CIV-TRACK-0016",
+    "description": "A fallen tree branch is obstructing the road.",
+    "image_url": null,
+    "category": "Public Safety",
+    "location": {
+      "latitude": 12.935623,
+      "longitude": 77.623335,
+      "address": "Synthetic location, Area Beta"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-02",
+    "status": "Resolved",
+    "assigned_department": "Public Safety Department",
+    "created_at": "2026-10-24T21:26:35",
+    "updated_at": "2026-10-24T12:10:35",
+    "ground_truth": {
+      "expected_category": "Public Safety",
+      "expected_priority_score": 96,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0039",
+    "tracking_id": "CIV-TRACK-0039",
+    "description": "The streetlights near the junction are still not working.",
+    "image_url": null,
+    "category": "Public Safety",
+    "location": {
+      "latitude": 12.9365,
+      "longitude": 77.625643,
+      "address": "Synthetic location, Area Beta"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-02",
+    "status": "Under Review",
+    "assigned_department": null,
+    "created_at": "2026-10-19T02:16:35",
+    "updated_at": "2026-10-26T17:41:35",
+    "ground_truth": {
+      "expected_category": "Public Safety",
+      "expected_priority_score": 96,
+      "duplicate_of": "RPT-0016",
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0040",
+    "tracking_id": "CIV-TRACK-0040",
+    "description": "There is an uncovered manhole near the public area.",
+    "image_url": null,
+    "category": "Public Safety",
+    "location": {
+      "latitude": 12.997408,
+      "longitude": 77.551452,
+      "address": "Synthetic location, Area Gamma"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-03",
+    "status": "Submitted",
+    "assigned_department": null,
+    "created_at": "2026-10-13T01:27:35",
+    "updated_at": "2026-10-25T07:30:35",
+    "ground_truth": {
+      "expected_category": "Public Safety",
+      "expected_priority_score": 99,
+      "duplicate_of": "RPT-0026",
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0021",
+    "tracking_id": "CIV-TRACK-0021",
+    "description": "Standing water is blocking pedestrian access.",
+    "image_url": null,
+    "category": "Waterlogging",
+    "location": {
+      "latitude": 12.934195,
+      "longitude": 77.624583,
+      "address": "Synthetic location, Area Beta"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-02",
+    "status": "Resolved",
+    "assigned_department": "Drainage Department",
+    "created_at": "2026-10-23T17:38:35",
+    "updated_at": "2026-10-24T13:14:35",
+    "ground_truth": {
+      "expected_category": "Waterlogging",
+      "expected_priority_score": 75,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0022",
+    "tracking_id": "CIV-TRACK-0022",
+    "description": "Garbage collection has not happened for several days.",
+    "image_url": null,
+    "category": "Waste Management",
+    "location": {
+      "latitude": 12.935839,
+      "longitude": 77.624197,
+      "address": "Synthetic location, Area Beta"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-02",
+    "status": "Assigned",
+    "assigned_department": "Sanitation Department",
+    "created_at": "2026-10-15T18:58:35",
+    "updated_at": "2026-10-30T04:12:35",
+    "ground_truth": {
+      "expected_category": "Waste Management",
+      "expected_priority_score": 58,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0037",
+    "tracking_id": "CIV-TRACK-0037",
+    "description": "Flooding is occurring on the same residential street.",
+    "image_url": null,
+    "category": "Road Damage",
+    "location": {
+      "latitude": 12.934497,
+      "longitude": 77.623393,
+      "address": "Synthetic location, Area Beta"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-02",
+    "status": "Assigned",
+    "assigned_department": "Road Maintenance",
+    "created_at": "2026-10-16T00:27:35",
+    "updated_at": "2026-10-30T10:57:35",
+    "ground_truth": {
+      "expected_category": "Road Damage",
+      "expected_priority_score": 78,
+      "duplicate_of": "RPT-0013",
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0011",
+    "tracking_id": "CIV-TRACK-0011",
+    "description": "Residents are reporting low water pressure.",
+    "image_url": null,
+    "category": "Water Supply",
+    "location": {
+      "latitude": 12.970903,
+      "longitude": 77.593733,
+      "address": "Synthetic location, Area Alpha"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-01",
+    "status": "Assigned",
+    "assigned_department": "Water Supply Department",
+    "created_at": "2026-10-23T14:55:35",
+    "updated_at": "2026-10-26T14:57:35",
+    "ground_truth": {
+      "expected_category": "Water Supply",
+      "expected_priority_score": 43,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0023",
+    "tracking_id": "CIV-TRACK-0023",
+    "description": "A damaged section of road needs urgent repair.",
+    "image_url": null,
+    "category": "Road Damage",
+    "location": {
+      "latitude": 12.996692,
+      "longitude": 77.548563,
+      "address": "Synthetic location, Area Gamma"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-03",
+    "status": "Under Review",
+    "assigned_department": null,
+    "created_at": "2026-10-12T04:26:35",
+    "updated_at": "2026-10-29T12:46:35",
+    "ground_truth": {
+      "expected_category": "Road Damage",
+      "expected_priority_score": 70,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0014",
+    "tracking_id": "CIV-TRACK-0014",
+    "description": "Rainwater is flooding the residential street.",
+    "image_url": null,
+    "category": "Waterlogging",
+    "location": {
+      "latitude": 12.93418,
+      "longitude": 77.625041,
+      "address": "Synthetic location, Area Beta"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-02",
+    "status": "Submitted",
+    "assigned_department": null,
+    "created_at": "2026-10-17T22:48:35",
+    "updated_at": "2026-10-26T19:10:35",
+    "ground_truth": {
+      "expected_category": "Waterlogging",
+      "expected_priority_score": 89,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0019",
+    "tracking_id": "CIV-TRACK-0019",
+    "description": "Water supply has been interrupted in the area.",
+    "image_url": null,
+    "category": "Water Supply",
+    "location": {
+      "latitude": 12.935166,
+      "longitude": 77.623336,
+      "address": "Synthetic location, Area Beta"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-02",
+    "status": "Assigned",
+    "assigned_department": "Water Supply Department",
+    "created_at": "2026-10-21T04:23:35",
+    "updated_at": "2026-10-28T17:21:35",
+    "ground_truth": {
+      "expected_category": "Water Supply",
+      "expected_priority_score": 72,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0018",
+    "tracking_id": "CIV-TRACK-0018",
+    "description": "Waste is scattered around the collection point.",
+    "image_url": null,
+    "category": "Waste Management",
+    "location": {
+      "latitude": 12.934297,
+      "longitude": 77.624122,
+      "address": "Synthetic location, Area Beta"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-02",
+    "status": "Under Review",
+    "assigned_department": null,
+    "created_at": "2026-10-12T18:28:35",
+    "updated_at": "2026-10-29T16:06:35",
+    "ground_truth": {
+      "expected_category": "Waste Management",
+      "expected_priority_score": 61,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0010",
+    "tracking_id": "CIV-TRACK-0010",
+    "description": "Uncollected garbage has accumulated near shops.",
+    "image_url": null,
+    "category": "Waste Management",
+    "location": {
+      "latitude": 12.97059,
+      "longitude": 77.594238,
+      "address": "Synthetic location, Area Alpha"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-01",
+    "status": "Under Review",
+    "assigned_department": null,
+    "created_at": "2026-10-20T10:12:35",
+    "updated_at": "2026-10-30T01:01:35",
+    "ground_truth": {
+      "expected_category": "Waste Management",
+      "expected_priority_score": 55,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0036",
+    "tracking_id": "CIV-TRACK-0036",
+    "description": "Pedestrians are having trouble using the damaged pavement.",
+    "image_url": null,
+    "category": "Waste Management",
+    "location": {
+      "latitude": 12.972072,
+      "longitude": 77.594796,
+      "address": "Synthetic location, Area Alpha"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-01",
+    "status": "Assigned",
+    "assigned_department": "Sanitation Department",
+    "created_at": "2026-10-22T04:44:35",
+    "updated_at": "2026-10-25T01:11:35",
+    "ground_truth": {
+      "expected_category": "Waste Management",
+      "expected_priority_score": 57,
+      "duplicate_of": "RPT-0006",
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0007",
+    "tracking_id": "CIV-TRACK-0007",
+    "description": "The pavement is broken and pedestrians are struggling.",
+    "image_url": null,
+    "category": "Road Damage",
+    "location": {
+      "latitude": 12.972685,
+      "longitude": 77.594832,
+      "address": "Synthetic location, Area Alpha"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-01",
+    "status": "Submitted",
+    "assigned_department": null,
+    "created_at": "2026-10-28T14:12:35",
+    "updated_at": "2026-10-28T08:32:35",
+    "ground_truth": {
+      "expected_category": "Road Damage",
+      "expected_priority_score": 65,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0008",
+    "tracking_id": "CIV-TRACK-0008",
+    "description": "Water is accumulating outside the bus stop.",
+    "image_url": null,
+    "category": "Waterlogging",
+    "location": {
+      "latitude": 12.970798,
+      "longitude": 77.593403,
+      "address": "Synthetic location, Area Alpha"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-01",
+    "status": "Assigned",
+    "assigned_department": "Drainage Department",
+    "created_at": "2026-10-15T14:33:35",
+    "updated_at": "2026-10-28T06:03:35",
+    "ground_truth": {
+      "expected_category": "Waterlogging",
+      "expected_priority_score": 76,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0017",
+    "tracking_id": "CIV-TRACK-0017",
+    "description": "Two streetlights are not functioning.",
+    "image_url": null,
+    "category": "Streetlight",
+    "location": {
+      "latitude": 12.936616,
+      "longitude": 77.625286,
+      "address": "Synthetic location, Area Beta"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-02",
+    "status": "Submitted",
+    "assigned_department": null,
+    "created_at": "2026-10-10T01:33:35",
+    "updated_at": "2026-10-24T18:48:35",
+    "ground_truth": {
+      "expected_category": "Streetlight",
+      "expected_priority_score": 52,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  },
+  {
+    "id": "RPT-0009",
+    "tracking_id": "CIV-TRACK-0009",
+    "description": "Drain cover is damaged and needs inspection.",
+    "image_url": null,
+    "category": "Drainage",
+    "location": {
+      "latitude": 12.971166,
+      "longitude": 77.595111,
+      "address": "Synthetic location, Area Alpha"
+    },
+    "ai_analysis": {
+      "summary": null,
+      "category": null,
+      "priority_score": null,
+      "priority_level": null,
+      "priority_reasons": [],
+      "duplicate_of": null,
+      "similarity_score": null
+    },
+    "cluster_id": "CLUSTER-01",
+    "status": "Submitted",
+    "assigned_department": null,
+    "created_at": "2026-10-10T15:16:35",
+    "updated_at": "2026-10-25T12:11:35",
+    "ground_truth": {
+      "expected_category": "Drainage",
+      "expected_priority_score": 91,
+      "duplicate_of": null,
+      "is_synthetic": true
+    }
+  }
+]
