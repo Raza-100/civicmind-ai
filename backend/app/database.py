@@ -1,16 +1,31 @@
-
+import os
 from pathlib import Path
 
-from sqlalchemy import create_engine
+from dotenv import load_dotenv
+from sqlalchemy import create_engine, text
 from sqlalchemy.orm import declarative_base, sessionmaker
 
-# Store the database inside the backend directory.
 BASE_DIR = Path(__file__).resolve().parent.parent
-DATABASE_URL = f"sqlite:///{BASE_DIR / 'civicmind.db'}"
+
+load_dotenv(BASE_DIR / ".env", override=True)
+
+DATABASE_URL = os.getenv("DATABASE_URL")
+
+if not DATABASE_URL:
+    raise RuntimeError("DATABASE_URL is missing from backend/.env")
+
+# Use Psycopg 3 with SQLAlchemy
+if DATABASE_URL.startswith("postgresql://"):
+    DATABASE_URL = DATABASE_URL.replace(
+        "postgresql://",
+        "postgresql+psycopg://",
+        1
+    )
 
 engine = create_engine(
     DATABASE_URL,
-    connect_args={"check_same_thread": False}
+    pool_pre_ping=True,
+    connect_args={"sslmode": "require"}
 )
 
 SessionLocal = sessionmaker(

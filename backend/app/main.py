@@ -1,17 +1,26 @@
 
+import os
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from sqlalchemy import text
 
 from app.database import Base, engine
 from app.models.complaint import Complaint
 from app.api.complaints import router as complaints_router
 
 
-# Create database tables
+# ==========================================
+# DATABASE INITIALIZATION
+# ==========================================
+
 Base.metadata.create_all(bind=engine)
 
 
-# Initialize FastAPI application
+# ==========================================
+# FASTAPI APPLICATION
+# ==========================================
+
 app = FastAPI(
     title="CivicMind AI",
     description="AI-powered civic complaint intelligence platform",
@@ -21,15 +30,30 @@ app = FastAPI(
 
 # ==========================================
 # CORS CONFIGURATION
-# Allow React frontend to communicate with API
 # ==========================================
+
+# Local development URLs
+allowed_origins = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173"
+]
+
+# Production frontend URL from Render environment
+frontend_url = os.getenv("FRONTEND_URL", "")
+
+# Support multiple frontend URLs separated by commas
+if frontend_url:
+    production_origins = [
+        url.strip().rstrip("/")
+        for url in frontend_url.split(",")
+        if url.strip()
+    ]
+
+    allowed_origins.extend(production_origins)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "http://127.0.0.1:5173"
-    ],
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -51,7 +75,8 @@ app.include_router(complaints_router)
 def root():
     return {
         "project": "CivicMind AI",
-        "message": "Civic intelligence backend is running!"
+        "message": "Civic intelligence backend is running!",
+        "version": "1.0.0"
     }
 
 
@@ -73,8 +98,6 @@ def health():
 
 @app.get("/database-health")
 def database_health():
-
-    from sqlalchemy import text
 
     with engine.connect() as connection:
         connection.execute(text("SELECT 1"))
